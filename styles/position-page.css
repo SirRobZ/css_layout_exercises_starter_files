@@ -37,23 +37,23 @@ main {
 	margin-right: auto;
 	margin-top: 150px;
 	border: 10px dotted green;
-	height: 600px
+	height: 300px;
 	width: 600px;
 	position: relative;
 }
 
 .cat {
 	position: absolute;
-	left: -100px
-	top: 100px;
 	width: 200px;
+	top: -100px;
+	left: -100px;
 }
 
 .dog {
 	position: absolute;
-	left: 500px;
-	top: 250px;
 	width: 200px;
+	bottom: -100px;
+	right: -100px;
 }
 
 body {
